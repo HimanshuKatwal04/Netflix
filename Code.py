@@ -24,5 +24,8 @@ df.drop_duplicates(subset=["title"],inplace=True)
 df['date_added']=pd.to_datatime(df['data_added'])
 df.dtype #to check if data type of date_added has changed
 
+#Let's analyse trhe Data now
+
+
 
 

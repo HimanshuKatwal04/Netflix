@@ -59,6 +59,9 @@ plt.title('DISTRIBUTION OF MOVIES & TV SHOWS')
 plt.xlabel('Genre')
 plt.ylabel('Distirbution')
 plt.show()
+plt.pie(type_counts,labels=type_counts.index,autopct='%1.1f%%')
+plt.title('Distribution of Movies and TV Shows on Netflix till the Year 2021')
+plt.show()
 
 #2.Visualizing the Genre Distibution
 plt.figure(figsize=(12,6))
